@@ -2,7 +2,7 @@
 
 This GUI program will allow the user to select multiple files to encrypt with AES-256 bit encryption algorithm. This program utilizes GUI design | encryption | decryption | SMTP(optionally). The encryption key will by default be stored locally, but if an email is provided and SMTP settings are configured, it can be emailed as well. Encrypted files will be stored in the 'Encryption' folder similarly for decrypted files, 'Decryption' folder. Decryption can be done either by a key and a single file at a time, or if a key is not entered it will search 'Keys' directory for an aptly named key.
 
-## Last successful test: 02/11/2021
+## Last successful test: 02/16/2021
     Windows 10 
     10.0.19041 Build 19041 
 	
@@ -18,15 +18,13 @@ This GUI program will allow the user to select multiple files to encrypt with AE
 ## TO DO: 
 	1: Add an option to send files and keys to a remote server
 
-	2: Implement a check for a generated key from database -> Create dynamic welcome message based on user
+	2: Implement a check for a generated key from database
 
 	3: Present a dynamic welcome message based on first run or re-run with registry key 
 
-	4: Improve the eye-appeal (beautify it!) 
+	4: Support more file types! 
 
-	5: Support more file types! 
-
-	6: Multithreading for multiple files 
+	5: Multithreading for multiple files 
 
 ## Install Requirements: 
 	Windows: 
