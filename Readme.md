@@ -1,6 +1,6 @@
 # Description: 
 
-This GUI program will allow the user to select multiple files to encrypt with AES-256 bit encryption algorithm. This program utilizes GUI design | encryption | decryption | SMTP(optionally). The encryption key will by default be stored locally, but if an email is provided and SMTP settings are configured, it can be emailed as well. Encrypted files will be stored in the 'Encryption' folder similarly for decrypted files, 'Decryption' folder. Decryption can be done either by a key and a single file at a time, or if a key is not entered it will search 'Keys' directory for an aptly named key.
+This GUI program will allow the user to select multiple files to encrypt with AES-256 bit encryption algorithm. This program utilizes GUI design | encryption | decryption | SMTP(optionally). The encryption key will by default be stored locally, but if an email is provided and SMTP settings are configured, it can be emailed as well. Encrypted files will be stored in the 'Encryption' folder similarly for decrypted files, 'Decryption' folder. Decryption can be done either one file at a time with a key or by providing multiple files. If a key is not entered it will search 'Keys' directory for an aptly named key.
 
 ## Last successful test: 02/16/2021
     Windows 10 
