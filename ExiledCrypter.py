@@ -35,7 +35,6 @@ import string
 import smtplib
 import traceback 
 import inspect 
-import _thread  
 import time 
 import re
 import urllib3
@@ -50,7 +49,6 @@ from PIL import Image
 from Crypto.PublicKey import RSA
 from Crypto.Cipher import AES
 from multiprocessing import Pool
-from cryptography.fernet import Fernet  #Authenticated cryptography which doesnt allow for file modification without key 
 from threading import Thread
 #################---Imports---##################
 
@@ -832,10 +830,6 @@ class MainApplication():
 		print(inspect.stack())
 
 	#end_def 
-
-	def Thredder():     #Thread manager 
-		None
-	#end_def
 
 	def checkforKeyFile(): #Verify that the user has a valid license from DB
 		None
