@@ -40,7 +40,7 @@ This GUI program will allow the user to select multiple files to encrypt with AE
 		sudo apt install pillow 
 		sudo apt install urllib3
 
-## Video Demonstration: https://www.youtube.com/watch?v=fij4dLKWpHM&feature=youtu.be
+## Video Demonstration: 
 [![](http://img.youtube.com/vi/fij4dLKWpHM/0.jpg)](http://www.youtube.com/watch?v=fij4dLKWpHM "ExiledCrypter Example Use ")
 
 _Source for Encryption/Decryption algorithm = https://eli.thegreenplace.net/2010/06/25/aes-encryption-of-files-in-python-with-pycrypto_
