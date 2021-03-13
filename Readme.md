@@ -34,7 +34,6 @@ This GUI program will allow the user to select multiple files to encrypt with AE
 		pip install cryptography
 		pip install pycryptodome
 	Linux: 
-
 		sudo apt-get install python3-tk 
 		sudo apt-get install python3-pil python3-pil.imagetk
 		sudo apt install pillow 
